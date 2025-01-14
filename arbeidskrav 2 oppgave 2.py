@@ -18,7 +18,7 @@ if antall_elever % 4 != 0: #Hvis antall elever ikke er et multiplum av 4, legg t
 
 #Beregne antall 1,5 liter brus, 2,5 dl pr elev    
 antall_brus = int(antall_elever / 6) #Del antall elever på 6 for å finne behov
-if antall_elever % 6 != 0: #Hvis antall elever ikke er et multiplum av 4, legg til en brus
+if antall_elever % 6 != 0: #Hvis antall elever ikke er et multiplum av 6, legg til en brus
     antall_brus +=1
     
 if antall_pizzaer == 1: #Entall eller flertall?
